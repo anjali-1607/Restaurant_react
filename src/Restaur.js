@@ -21,6 +21,7 @@ const Restaur = () => {
   console.log(menuData);
 
   const filterItem = (category) => {
+    console.log("category", category);
     if (category === "All") {
       setMenuData(Menu);
       return;
